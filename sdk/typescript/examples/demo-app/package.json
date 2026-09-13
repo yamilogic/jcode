@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "node init && node index.mjs"
   },
   "dependencies": {
     "@1jehuang/jcode-sdk": "^1.0.0"

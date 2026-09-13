@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "npx wrangler dev",
+    "dev": "node init && npx wrangler dev",
     "test": "node --test test/*.test.mjs",
     "deploy": "npx wrangler deploy",
     "migrate:expand": "npx wrangler d1 execute jcode-telemetry --remote --file=migrations/0001_expand_events.sql",
